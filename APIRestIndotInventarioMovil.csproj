@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>da9c57d5-b53c-4627-becb-037f08227958</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Abstractions" Version="9.0.0" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.15" />
+    <PackageReference Include="Reo.Core.DataModels" Version="8.0.80" />
+    <PackageReference Include="Scalar.AspNetCore" Version="1.2.64" />
+    <PackageReference Include="supabase-csharp" Version="0.16.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Log\" />
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+
+</Project>

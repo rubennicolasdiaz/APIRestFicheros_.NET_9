@@ -1,0 +1,108 @@
+[
+  {
+    "ContainingType": "APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController",
+    "Method": "DeleteFile",
+    "RelativePath": "apiindot/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController",
+    "Method": "DownloadFile",
+    "RelativePath": "apiindot/download",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreFichero",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController",
+    "Method": "DownloadFilesList",
+    "RelativePath": "apiindot/downloadfiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ficheros",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIRestIndotInventarioMovil.Controllers.LoginAPIController",
+    "Method": "Login",
+    "RelativePath": "apiindot/LoginAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioLogin",
+        "Type": "APIRestIndotInventarioMovil.Models.LoginAPI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIRestIndotInventarioMovil.DTO.UsuarioApiDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController",
+    "Method": "UploadFile",
+    "RelativePath": "apiindot/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController",
+    "Method": "UploadFiles",
+    "RelativePath": "apiindot/uploadfiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

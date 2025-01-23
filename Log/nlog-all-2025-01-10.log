@@ -1,0 +1,261 @@
+2025-01-10 13:48:54.0803|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 13:48:54.3853|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 13:48:54.3853|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 13:48:54.4960|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 13:48:54.4960|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 13:48:54.5008|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 13:50:28.5782|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 68
+2025-01-10 13:50:28.6921|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 13:50:28.6921|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 13:50:29.5133|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'APIRestIndotInventarioMovil.DTO.UsuarioApiDTO'.
+2025-01-10 13:50:29.5246|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 807.047ms
+2025-01-10 13:50:29.5246|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 13:50:29.5246|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 200 - application/json;+charset=utf-8 955.6660ms
+2025-01-10 13:56:15.1356|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 13:56:15.4500|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 13:56:15.4840|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 13:56:15.5564|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 13:56:15.5564|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 13:56:15.5564|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 13:56:23.9033|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.html - - -
+2025-01-10 13:56:24.1215|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.html - 200 - text/html;charset=utf-8 221.2627ms
+2025-01-10 13:56:24.1340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 13:56:24.1340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.js - - -
+2025-01-10 13:56:24.1340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_vs/browserLink - - -
+2025-01-10 13:56:24.1340|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.js - 200 - application/javascript;charset=utf-8 1.3946ms
+2025-01-10 13:56:24.1848|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - 200 13806 application/javascript;+charset=utf-8 51.5251ms
+2025-01-10 13:56:24.2360|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 101.1781ms
+2025-01-10 13:56:24.3717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - - -
+2025-01-10 13:56:24.5294|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 158.1042ms
+2025-01-10 13:56:29.3795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 47
+2025-01-10 13:56:29.5308|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 13:56:29.5529|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 13:56:30.3906|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 832.6853ms
+2025-01-10 13:56:30.3915|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 13:56:30.4108|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Credenciales no válidas
+   at APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login(LoginAPI usuarioLogin) in C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil\Controllers\LoginAPIController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 13:56:30.5439|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 500 - text/plain;+charset=utf-8 1164.7445ms
+2025-01-10 14:02:09.7437|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 14:02:10.0235|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 14:02:10.0440|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 14:02:10.1058|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 14:02:10.1058|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 14:02:10.1289|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 14:02:27.4030|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.html - - -
+2025-01-10 14:02:27.6649|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.html - 200 - text/html;charset=utf-8 265.8039ms
+2025-01-10 14:02:27.6827|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_vs/browserLink - - -
+2025-01-10 14:02:27.6827|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 14:02:27.6827|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.js - - -
+2025-01-10 14:02:27.6827|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.js - 200 - application/javascript;charset=utf-8 1.5751ms
+2025-01-10 14:02:27.7073|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - 200 13806 application/javascript;+charset=utf-8 24.5964ms
+2025-01-10 14:02:27.7287|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 46.1168ms
+2025-01-10 14:02:27.8089|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - - -
+2025-01-10 14:02:27.9666|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 157.6978ms
+2025-01-10 14:02:57.6427|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 47
+2025-01-10 14:02:57.7506|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:02:57.7713|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 14:02:58.7234|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 945.1188ms
+2025-01-10 14:02:58.7234|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:02:58.7445|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Credenciales no válidas
+   at APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login(LoginAPI usuarioLogin) in C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil\Controllers\LoginAPIController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 14:02:58.9006|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 500 - text/plain;+charset=utf-8 1257.9914ms
+2025-01-10 14:03:59.2181|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 14:03:59.6195|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 14:03:59.6195|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 14:03:59.7366|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 14:03:59.7366|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 14:03:59.7366|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 14:03:59.7642|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.html - - -
+2025-01-10 14:03:59.9920|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.html - 200 - text/html;charset=utf-8 227.5567ms
+2025-01-10 14:03:59.9954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.js - - -
+2025-01-10 14:03:59.9954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 14:03:59.9954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.js - 200 - application/javascript;charset=utf-8 2.7036ms
+2025-01-10 14:03:59.9954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_vs/browserLink - - -
+2025-01-10 14:04:00.0105|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - 200 13806 application/javascript;+charset=utf-8 14.6107ms
+2025-01-10 14:04:00.0585|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 60.1708ms
+2025-01-10 14:04:00.1573|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - - -
+2025-01-10 14:04:00.3080|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 150.8831ms
+2025-01-10 14:04:05.7326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 47
+2025-01-10 14:04:05.8124|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:04:05.8413|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 14:04:06.5952|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 748.833ms
+2025-01-10 14:04:06.5952|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:04:06.6163|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Credenciales no válidas
+   at APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login(LoginAPI usuarioLogin) in C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil\Controllers\LoginAPIController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 14:04:06.7676|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 500 - text/plain;+charset=utf-8 1035.0337ms
+2025-01-10 14:06:00.8846|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 14:06:01.1944|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 14:06:01.1944|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 14:06:01.2581|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 14:06:01.2608|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 14:06:01.2608|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 14:07:45.3236|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 14:07:45.6167|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 14:07:45.6167|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 14:07:45.6726|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 14:07:45.6726|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 14:07:45.6726|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 14:07:50.3721|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.html - - -
+2025-01-10 14:07:50.6292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.html - 200 - text/html;charset=utf-8 254.5555ms
+2025-01-10 14:07:50.6405|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.js - - -
+2025-01-10 14:07:50.6405|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 14:07:50.6405|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.js - 200 - application/javascript;charset=utf-8 2.3045ms
+2025-01-10 14:07:50.6466|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_vs/browserLink - - -
+2025-01-10 14:07:50.7187|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - 200 13806 application/javascript;+charset=utf-8 78.2876ms
+2025-01-10 14:07:50.7532|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 112.6099ms
+2025-01-10 14:07:50.8194|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - - -
+2025-01-10 14:07:50.9780|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 158.4125ms
+2025-01-10 14:08:12.1091|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/uploadFiles - multipart/form-data;+boundary=----WebKitFormBoundaryqrJlSq2K7Z1naBlx 1098
+2025-01-10 14:08:12.2854|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-10 14:08:12.2897|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2025-01-10 14:08:12.2897|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/uploadFiles - 401 0 - 180.9096ms
+2025-01-10 14:08:20.8754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 47
+2025-01-10 14:08:20.8810|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:08:20.9160|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 14:08:21.9304|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 1007.0983ms
+2025-01-10 14:08:21.9304|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:08:21.9513|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.|System.Exception: Credenciales no válidas
+   at APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login(LoginAPI usuarioLogin) in C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil\Controllers\LoginAPIController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-10 14:08:22.0835|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 500 - text/plain;+charset=utf-8 1208.2138ms
+2025-01-10 14:08:42.3982|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 68
+2025-01-10 14:08:42.3982|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:08:42.3982|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 14:08:42.5647|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'APIRestIndotInventarioMovil.DTO.UsuarioApiDTO'.
+2025-01-10 14:08:42.5687|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 156.6427ms
+2025-01-10 14:08:42.5687|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:08:42.5687|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 200 - application/json;+charset=utf-8 171.0854ms
+2025-01-10 14:09:07.5706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/uploadFiles - multipart/form-data;+boundary=----WebKitFormBoundaryKk4DUxBZBwhnVA6j 1098
+2025-01-10 14:09:07.6332|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.UploadFiles (APIRestIndotInventarioMovil)'
+2025-01-10 14:09:07.6332|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadFiles", controller = "UploadDownloadFiles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFiles(Microsoft.AspNetCore.Http.IFormFile[]) on controller APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController (APIRestIndotInventarioMovil).
+2025-01-10 14:09:07.6643|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'APIRestIndotInventarioMovil.Files.UploadFilesResponse'.
+2025-01-10 14:09:07.6643|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.UploadFiles (APIRestIndotInventarioMovil) in 28.5136ms
+2025-01-10 14:09:07.6643|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.UploadFiles (APIRestIndotInventarioMovil)'
+2025-01-10 14:09:07.6963|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/uploadFiles - 200 - application/json;+charset=utf-8 125.6891ms
+2025-01-10 14:09:31.3198|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/uploadFiles - multipart/form-data;+boundary=----WebKitFormBoundaryZ0yhgHYYMOWjXXTq 42129
+2025-01-10 14:09:31.3510|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.UploadFiles (APIRestIndotInventarioMovil)'
+2025-01-10 14:09:31.3510|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadFiles", controller = "UploadDownloadFiles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadFiles(Microsoft.AspNetCore.Http.IFormFile[]) on controller APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController (APIRestIndotInventarioMovil).
+2025-01-10 14:09:31.3510|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'APIRestIndotInventarioMovil.Files.UploadFilesResponse'.
+2025-01-10 14:09:31.3510|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.UploadFiles (APIRestIndotInventarioMovil) in 9.3847ms
+2025-01-10 14:09:31.3510|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.UploadFiles (APIRestIndotInventarioMovil)'
+2025-01-10 14:09:31.3510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/uploadFiles - 200 - application/json;+charset=utf-8 41.2373ms
+2025-01-10 14:12:21.3025|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\programacion1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-10 14:12:21.6054|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-01-10 14:12:21.6054|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5197
+2025-01-10 14:12:21.6708|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-01-10 14:12:21.6708|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-01-10 14:12:21.6708|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\programacion1\source\repos\APIRestIndotInventarioMovil
+2025-01-10 14:12:41.3957|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.html - - -
+2025-01-10 14:12:41.6542|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.html - 200 - text/html;charset=utf-8 262.9442ms
+2025-01-10 14:12:41.6675|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.js - - -
+2025-01-10 14:12:41.6675|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - - -
+2025-01-10 14:12:41.6675|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_vs/browserLink - - -
+2025-01-10 14:12:41.6675|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.js - 200 - application/javascript;charset=utf-8 1.5222ms
+2025-01-10 14:12:41.6949|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - 200 13806 application/javascript;+charset=utf-8 27.5058ms
+2025-01-10 14:12:41.7190|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 51.6099ms
+2025-01-10 14:12:41.9666|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - - -
+2025-01-10 14:12:42.1444|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 177.8157ms
+2025-01-10 14:12:48.5270|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - - -
+2025-01-10 14:12:48.6132|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-10 14:12:48.6132|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2025-01-10 14:12:48.6132|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - 401 0 - 90.1781ms
+2025-01-10 14:14:08.0995|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/LoginAPI - application/json 72
+2025-01-10 14:14:08.0995|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:08.1259|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "LoginAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[APIRestIndotInventarioMovil.DTO.UsuarioApiDTO]] Login(APIRestIndotInventarioMovil.Models.LoginAPI) on controller APIRestIndotInventarioMovil.Controllers.LoginAPIController (APIRestIndotInventarioMovil).
+2025-01-10 14:14:08.8151|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'APIRestIndotInventarioMovil.DTO.UsuarioApiDTO'.
+2025-01-10 14:14:08.8151|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil) in 691.332ms
+2025-01-10 14:14:08.8151|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.LoginAPIController.Login (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:08.8151|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/LoginAPI - 200 - application/json;+charset=utf-8 725.0884ms
+2025-01-10 14:14:36.2020|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - - -
+2025-01-10 14:14:36.2452|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:36.2452|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetFile", controller = "UploadDownloadFiles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFile(System.String) on controller APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController (APIRestIndotInventarioMovil).
+2025-01-10 14:14:36.2452|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-10 14:14:36.2660|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil) in 17.1509ms
+2025-01-10 14:14:36.2660|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:36.2660|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - 404 - application/problem+json;+charset=utf-8 64.3236ms
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - - -
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetFile", controller = "UploadDownloadFiles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFile(System.String) on controller APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController (APIRestIndotInventarioMovil).
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil) in 0.8231ms
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:50.2893|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - 404 - application/problem+json;+charset=utf-8 5.1228ms
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - - -
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetFile", controller = "UploadDownloadFiles"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFile(System.String) on controller APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController (APIRestIndotInventarioMovil).
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil) in 1.9008ms
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.GetFile (APIRestIndotInventarioMovil)'
+2025-01-10 14:14:55.6022|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/api/download/Inventario_20241119_1.articulos.json - 404 - application/problem+json;+charset=utf-8 3.7248ms
+2025-01-10 14:15:21.6233|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/download - multipart/form-data;+boundary=----WebKitFormBoundaryArK2RddP9id2hlcB 180
+2025-01-10 14:15:21.6233|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.BajarDocumento (APIRestIndotInventarioMovil)'
+2025-01-10 14:15:21.6233|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "BajarDocumento", controller = "UploadDownloadFiles"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult BajarDocumento(System.String) on controller APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController (APIRestIndotInventarioMovil).
+2025-01-10 14:15:21.6428|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|Executing FileContentResult, sending file with download name 'Inventario_20241119_1.articulos.json' ...
+2025-01-10 14:15:21.6670|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.BajarDocumento (APIRestIndotInventarioMovil) in 38.0019ms
+2025-01-10 14:15:21.6670|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'APIRestIndotInventarioMovil.Controllers.UploadDownloadFilesController.BajarDocumento (APIRestIndotInventarioMovil)'
+2025-01-10 14:15:21.6670|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/download - 200 41912 application/octet-stream 81.0838ms

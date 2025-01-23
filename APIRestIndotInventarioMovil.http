@@ -1,0 +1,6 @@
+@APIRestIndotInventarioMovil_HostAddress = http://localhost:5197
+
+GET {{APIRestIndotInventarioMovil_HostAddress}}/articulos/
+Accept: application/json
+
+###

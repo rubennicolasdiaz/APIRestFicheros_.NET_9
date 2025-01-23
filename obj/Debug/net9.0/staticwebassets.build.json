@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "o6hUkXLiZzWcEKjl9vu0y4kTY6/D+qYKBM8JKhqT3II=",
+  "Source": "APIRestIndotInventarioMovil",
+  "BasePath": "_content/APIRestIndotInventarioMovil",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
